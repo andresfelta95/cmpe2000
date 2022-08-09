@@ -1,0 +1,271 @@
+/*GENERAL STYLE*/
+
+.holeclass{
+    font-size: large;
+    background-color: #6b1a1e;
+}
+
+.Page{
+    display: grid;
+    grid-template-columns: 1fr; 
+}
+
+.centerItems{
+    align-items: center;
+    justify-items: center;
+}
+
+.font-effect-3d {
+    text-shadow: 0px 1px 0px #c7c8ca, 0px 2px 0px #b1b3b6, 0px 3px 0px #9d9fa2, 0px 4px 0px #8a8c8e, 0px 5px 0px #77787b, 0px 6px 0px #636466, 0px 7px 0px #4d4d4f, 0px 8px 7px #001135;
+    color: #fff;
+    
+}
+
+.footer {
+	background : rgb(212, 221, 170);
+	
+}
+
+.jumbotron {
+    font-family: Comfortaa, sans-serif;
+    background-color: #0000f036;
+    color: #cccccc;            
+}
+
+.text-center {
+    text-align: center;
+}
+
+h2{
+    background-color: #0000f036;
+    color: antiquewhite;
+}
+
+.p1{
+    color: #c7c8ca;
+    font-family: 'Quintessential', cursive;
+    font-size: x-large;
+}
+
+
+/* -----------------------------------------------------------------------*/
+
+/*Landin Page Style*/
+#Profile_Pic{
+    border: 10px solid black;
+    border-radius: 100%;
+    height: 250px;
+    width: 250px;
+    
+}
+
+.legend{
+    color: #fff;
+        
+}
+
+.QuickAccess{
+    display: grid;
+    grid-template-columns:repeat(2 1fr);
+    grid-template-rows: repeat(2 1fr);
+    grid-gap: 50px;
+}
+
+.Quick1{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    border-radius: 15px;
+    height: 50px;
+}
+
+.Quick2{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    border-radius: 15px;
+    height: 50px;
+}
+
+.Quick3{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    border-radius: 15px;
+    height: 50px;
+}
+
+.Quick4{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    border-radius: 15px;
+    height: 50px;
+}
+/*------------------------------------------------------------------------------*/
+
+/*Accomplishments/Employment style*/
+#linkB{
+    color: #c7c8ca;
+}
+
+#Band_Pic{
+    border: 4mm ridge  rgba(247, 247, 248, 0.815);
+    height: 400px;
+    width: 400px;
+}
+
+#buttonB{
+    font-size: xx-large;
+    background-color: #0000f036;    
+    height: 100px;
+    width: 400px;    
+}
+
+.item1{
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+    grid-template-rows: 100px 2fr;
+    grid-gap: 50px;
+}
+
+#title{
+    grid-column-start: 1;
+    grid-column-end: span 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+#d1{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+#d2{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 2; 
+}
+
+.item2{
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+    grid-template-rows: 100px 2fr;
+    grid-gap: 50px;
+}
+/*----------------------------------------------------------------------------------*/
+
+
+/*My NAIT STYLE*/
+
+.HoleNAIT{
+    display: grid;
+    grid-template-columns: 1fr 6fr 1fr;              
+}
+
+.Page1{
+    grid-column-start: 1;
+    grid-column-end: span 3;
+    
+}
+
+
+
+.header1{
+    font-family: Tahoma;
+    font-size: 18pt;
+    font-style: bold;
+    color: gray;    
+}
+
+
+table{
+    grid-column-start: 2;
+    grid-column-end: 2;    
+    background-color: rgba(227, 226, 229, 0.904);
+}
+
+.hours{
+    border: 2px solid rgba(165, 165, 182, 0.719);
+    text-align: center;
+    padding: 10px;
+}    
+tr:nth-child(even){color: rgb(187, 39, 39);}
+tr:nth-child(odd){color: rgb(21, 26, 26);}
+
+th, td{border: 2px solid rgba(165, 165, 182, 0.719);
+    text-align: center;
+    padding: 10px;}
+
+.footer1 {
+	background : rgb(212, 221, 170);
+	grid-column-start: 1;
+    grid-column-end: span 3;    
+}
+
+#linkN{
+    color: rgba(255, 255, 255, 0.945);
+}
+
+#CMPE-1250{
+    color: #001135;
+    background-color: greenyellow;
+}
+
+#MATH-1200{
+    color: #001135;
+    background-color: rgb(47, 113, 255);
+}
+
+#CMPE-2000{
+    color: #001135;
+    background-color: rgb(255, 189, 47);
+}
+
+#CMPE-1400{
+    color: #001135;
+    background-color: rgb(154, 47, 255);
+}
+
+#CMPE-1666{
+    color: #001135;
+    background-color: rgba(255, 89, 47, 0.808);
+}
+
+#CMPE-2400{
+    color: #001135;
+    background-color: rgba(158, 67, 44, 0.808);
+}
+
+/*------------------------------------------------------------------------------------*/
+
+/*FEEDBACK */
+.container{
+    display:grid;    
+    grid-template-columns:1fr 6fr 1fr;
+    grid-template-rows: 30vh 60vh 10vh;
+}
+
+#header1, .footer1{
+    grid-column-start: 1;
+    grid-column-end: span 3;
+}
+#form1{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr 1fr;
+    grid-gap: 50px;
+    align-items: center;        
+}
+.forms{
+    border: 5pt dashed rgba(104, 184, 144, 0.336);
+}

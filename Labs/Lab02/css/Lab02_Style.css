@@ -1,0 +1,102 @@
+/*Game Board*/
+#grid-container{
+    display: grid;
+    grid-gap: 10px;
+    font-weight: bold;
+}
+
+header, footer{
+    background-color: cyan;
+    text-align: center;
+    
+}
+
+header{
+    grid-row-start: 1;
+    grid-row-end: span 1;
+}
+footer{
+    grid-row-start: 3;
+    grid-row-end: span 1;
+}
+#gameboard{
+    background-color: rgb(153, 223, 196);
+    grid-row-start: 2;
+    grid-row-end: span 1;
+    
+    display: grid;
+    grid-template-columns: 2fr repeat(9, 1fr) 2fr;
+    grid-template-rows: 120px repeat(9, 50px) 120px;
+}
+
+section{
+    border: 1px solid black;
+    text-align: center;    
+}
+
+.red{
+    border-bottom: 20px solid red;
+}
+
+.yellow{
+    border-bottom: 20px solid yellow;
+}
+.blue{
+    border-left: 20px solid blue;
+}
+.green{
+    border-left: 20px solid green;
+}
+.brown{
+    border-top: 20px solid brown;
+}
+.lightblue{
+    border-top: 20px solid lightblue;
+}
+.purple{
+    border-right: 20px solid purple;
+}
+.orange{
+    border-right: 20px solid orange;
+}
+/*Images*/
+img{
+    width: 60px;
+    height: 60px;
+}
+/*Middle content*/
+aside{
+    grid-column-start: 2;
+    grid-column-end: span 9;
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+}
+/*Players Grid*/
+#grid{
+    display: grid;        
+}
+#player1div{
+    background-color: rgb(255, 238, 0);
+    grid-column-start: 1;
+    grid-column-end: span 1;
+}
+#player2div{
+    background-color: rgb(131, 0, 72);
+    grid-column-start: 2;
+    grid-column-end: span 1;
+}
+#player1amt, #player2amt{
+    background-color: rgb(47, 231, 47);
+    height: 40px;
+    width: 90px;            
+}
+
+/*Dice Grid*/
+#diceroll{
+    display: grid;
+}
+#die1, #die2{
+    grid-row-start: 1;
+    grid-row-end: span 1;
+}

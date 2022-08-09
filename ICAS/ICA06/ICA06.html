@@ -1,0 +1,65 @@
+<!Doctype html>
+<html>
+
+<head>
+    <title>ICA06 - Andres Tangarife</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/ICA6css.css">
+    <script src="js/ICA06Script.js"></script>
+</head>
+
+<body class="outherGrid">
+    <div id="header1" class="jumbotron text-center">
+        <h1 class="font-effect-3d">Andres Tangarife ICA06 Purchase a Ride</h1>           
+    </div>
+    
+    
+    <form name="myform" class="innerGrid" action="https://thor.net.nait.ca/~oveeyenm/CMPE2000/demos/week7/form1.php" method="get" >
+
+        <label id="L1">Make:</label>
+        <section>
+            <select name="Make" id="Make" size="5">
+                <optgroup label="Please Pick One">                
+                    <option value="Honda">Japanese</option>
+                    <option value="Ducati">European</option>
+                    <option value="Harley">American</option>            
+                </optgroup>
+            </select> 
+    
+            <img id="bike">
+        </section>
+
+        <label id="L2">Model:</label>
+
+        <fieldset id="Model">
+            <input type="radio" name="Model" class="Model" value="5000">Scooter<br>
+            <input type="radio" name="Model" class="Model" value="10000">Naked<br>
+            <input type="radio" name="Model" class="Model" value="15000">Track<br>
+        </fieldset>
+        
+        <label id="L3">Options :</label>
+
+        <fieldset id="Options">
+            <input type="checkbox" id="ABS" name="Options" class="Options" value=300>Automatic Barking System<br>
+            <input type="checkbox" id="TCS" name="Options" class="Options" value=400>Traction Control System<br>
+            <input type="checkbox" id="FMM" name="Options" class="Options" value=500>Flight Mode Mapping<br>
+        </fieldset>
+
+        <label id="L4">Pre-Payment:</label>
+
+        <input type="text" name="down_payment" class="dpment" id="dpayment" value=""> 
+        
+        <div id="message"></div>
+
+        <button type="submit" id="submitB" name="submit">Purchase</button> <br>
+
+    </form>
+
+    <div class="footer text-center">
+        &copy; &Lambda;&alpha;&eta;s&epsilon;&zeta;&sigma;&omega;<br/>
+        <script>document.write('Last Modified:' + document.lastModified);</script>                  
+    </div>
+
+</body>
+
+</html>

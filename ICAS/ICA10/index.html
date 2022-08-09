@@ -1,0 +1,64 @@
+<!Doctype html>
+<html>
+
+<head>
+    <title>ICA10</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/ICA10.css">
+    <script src="js/ICA10.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <div id="header1" class="jumbotron text-center">
+        <h1 class="font-effect-3d">Andres Tangarife ICA10</h1>           
+    </div>
+    <br>
+
+
+    <div class="Body">        
+        <section class="Manufacturer">
+            <label > Manufacturer:
+            </label> 
+            <select name="Manufacturer" id="Manufacturer" size="5">                
+            </select>
+        </section>        
+        
+        <section class="Year">
+            <label > Year:
+            </label> 
+            <select name="Year" id="Year">        
+            </select>
+        </section>       
+        
+        <section class="Type">
+            <label > Type:
+            </label>
+        <select name="type" id="Type">        
+        </select>
+        </section>
+        <br><br>
+        
+        
+        <button type="button" id="callGet">Invoke Request</button>
+        <br><br>
+        <div class="Result">
+            <section id="ShowResult"></section>
+            <section id="GetResult"></section>
+        </div> 
+        <br> <br>
+    </div>
+    
+    
+    
+    
+    <div class="footer text-center">
+        &copy; &Lambda;&alpha;&eta;s&epsilon;&zeta;&sigma;&omega;<br/>
+        <script>document.write('Last Modified:' + document.lastModified);</script>                  
+    </div>
+    
+</body>
+
+</html>

@@ -1,0 +1,72 @@
+<!Doctype html>
+<html lang="en">
+
+<head>
+    <title>Andres Tangarife ICA05</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/ICA05_Style.css">
+    <script src="ICA05JS.js"></script>
+    <style>
+
+    </style>
+</head>
+
+<body class="outherGrid">    
+
+    <div id="header1" class="jumbotron text-center">
+        <h1 class="font-effect-3d">Andres Tangarife ICA05</h1>           
+    </div>
+    
+    <form class="innerGrid">
+        <p class="ps">Redict using location:</p>
+        <p class="ps">Background Color Picker:</p>
+        <p class="ps">Current Dimensions</p>
+        <p class="ps">What time is it:</p>
+        <p class="ps">Secret Agent, Man</p>
+        <p class="ps">Prompt Test:</p>
+        <p class="ps">Make a Tux:</p>
+        <p class="ps">Dynamic Update:</p>
+        <p class="ps">Make a Table:</p>
+        <button id="mybutton1" class="right" type="button" onclick="changeLocation()">
+            <img id="icon" src="images/Edge-Logo.png" alt="">
+        </button>
+        <div class="background right" >
+            <input id="clr" type="color" name="desiredColor">
+            <button id="mybutton2" type="button" onclick="changeBackground()">Set Background</button>
+        </div>
+        <div class="dimmentions right">
+            <button id="mybutton3" type="button" onclick="changeDiemmensions()">Show Dimensions</button>
+            <input id="dimText" type="text" readonly>
+        </div>
+        <div class="timeNow right">
+            <button id="mybutton4" type="button" onclick="TimeString()">Now !!!</button>
+        </div>
+        <div class="secret right">
+            <button id="mybutton5" type="button" onclick="secretAgent()">Whose my Daddy?</button>
+        </div>
+        <div class="prompt right">
+            <button id="mybutton6" type="button" onclick="promptText()">?</button>
+        </div>
+        <div class="tux right">
+            <button id="mybutton7" type="button">set Text Any Paragraph</button>
+        </div>
+        <div class="dynamic right">
+            <input type="range">
+            <button id="mybutton8" type="button">Dynamic Wight</button>
+        </div>
+        <div class="tableb right">
+            <input type="range">
+            <input type="range">
+            <button id="mybutton9" type="button">Tablize</button>
+        </div>
+        
+    </form>
+    
+    <div class="footer text-center">
+        &copy; &Lambda;&alpha;&eta;s&epsilon;&zeta;&sigma;&omega;<br/>
+        <script>document.write('Last Modified:' + document.lastModified);</script>                  
+    </div>
+        
+</body>
+
+</html>

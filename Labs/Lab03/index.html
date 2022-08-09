@@ -1,0 +1,112 @@
+<!Doctype html>
+<html>
+
+<head>
+    <title>LAB 03</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/Lab03.css">
+    <script src="js/Lab03.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <div id="header1" class="jumbotron text-center">
+        <h1 class="font-effect-3d">Andres Tangarife Lab 03</h1>           
+    </div>
+    <br>
+
+
+    <div class="Body">        
+        
+        <label > Tag Name:
+        </label> 
+        <input type="text" name="TagName" id="tagName" placeholder="TagDesc to Add">
+        <br>
+    
+        <label > Minimum:
+        </label> 
+        <input type="text" name="minimum" id="Minimum" placeholder="Minimum Tag Value">
+        <br>
+    
+        <label > Maximum:
+        </label>
+        <input type="text" name="maximum" id="Maximum" placeholder="Maximum Tag Value">
+        <br>
+        
+        <button type="button" id="AddTag">Add Tag</button>
+        <br><br>
+
+        <button type="button" id="GetAll">Get All</button>
+        <br><br>
+        
+        <label > Tag by Filter:
+        </label>
+        <input type="text" name="TagByFilter" id="tagByFilter" placeholder="Tag Filter">       
+        <br><br>
+
+        <button type="button" id="Filter">Filter</button>
+        <br><br>
+        
+        <select name="Manufacturer" id="Historical">                            
+        </select>
+        <button type="button" id="GetHistorical">Get Historical</button>
+        
+        <br><br>
+
+        <button type="button" id="GetLive">Get Live</button>
+        <br><br>
+        
+        <label > Live:
+        </label>
+        <input type="checkbox" name="LiveChbkx" id="Live">
+        
+        <br><br>        
+        
+    </div>
+    <br><br>
+
+    <div id="ShowResult">No DIV Content Yet</div>
+
+    <div class="Result">
+        <section id="GetResult">
+            <table id="FirstTable">
+                <tr>
+                    <th>ID</th>
+                    <th>Tag Description</th>
+                    <th>Minimum</th>
+                    <th>Maximum</th>
+                </tr>
+            </table>
+            <br><br>
+
+            <table id="SecondTable">
+                <th>ID</th>
+                <th>Tag Description</th>
+                <th>Minimum</th>
+                <th>Maximum</th>
+                <th>Value</th>
+                <th>Gauge</th>
+            </table>
+            <br><br>
+
+            <table id="ThirdTable">            
+                <th>Minimum</th>
+                <th>Maximum</th>
+                <th>Value</th>
+                <th>TimeStamp</th>
+                <th>Gauge</th>
+            </table>
+        </section>
+    </div> 
+    <br> <br>
+    
+    <div class="footer text-center">
+        &copy; &Lambda;&alpha;&eta;s&epsilon;&zeta;&sigma;&omega;<br/>
+        <script>document.write('Last Modified:' + document.lastModified);</script>                  
+    </div>
+    
+</body>
+
+</html>

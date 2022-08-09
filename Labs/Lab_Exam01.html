@@ -1,0 +1,62 @@
+<!Doctype html>
+
+<html>
+<head>
+    <title>Andres Tangarife Lab Exam01</title>    
+<style>
+    .header{
+        font-family: Tahoma;
+        font-size: 18pt;
+        font-style: bold;
+        color: gray;        
+    }
+    table{
+        background-color: chocolate;
+    }
+    th, td{border: 2px solid blue;
+        text-align: center;
+        padding: 10px;}    
+    tr:nth-child(even){color: grey;}
+    tr:nth-child(odd){color: aqua;}
+    
+</style>    
+    
+        
+</head>
+<body>
+    <table>
+        <thead>
+            <tr >
+                <th class="header">Tube</th>
+                <th class="header">Mon</th>
+                <th class="header">Tue</th>
+                <th class="header">Wed</th>
+                <th class="header">Thu</th>
+                <th class="header">Fri</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>AM</td>
+                <td rowspan="2">Cops</td>
+                <td colspan="3">Twilight Zone</td>
+                <td>Cops</td>
+            </tr>
+            <tr>
+                <td>MID</td>
+                
+                <td rowspan="2" colspan="2">Dune</td>
+                <td colspan="2">Star Trek</td>
+                    
+            </tr>
+            <tr>
+                <td>PM</td>
+                <td>Buffy</td>
+                <td colspan="2">Firefly</td>
+                   
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html> 

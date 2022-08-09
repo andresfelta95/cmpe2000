@@ -1,0 +1,78 @@
+<!Doctype html>
+<!--HTML file to illustrate the us of grid positions Demo
+    we'll make use of grid start and end positions-->
+<html>
+<head>
+    <title>Andres Tangarife ICA04</title>    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Comforter&family=Neonderthaw&family=Xanh+Mono:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/Lab01_Style.css">
+        
+</head>
+<body class="holeclass">
+    <div class="container">
+        <div id="header1" class="jumbotron text-center">
+            <h1 class="font-effect-3d">Feedback</h1>
+            <br>
+            
+            <button id="buttonB"><a id="linkB" href="Lab01.html">Landing Page</a></button>            
+        </div>     
+                
+        <form id="form1" action="https://thor.net.nait.ca/~demo/cmpe2000/ica04_formtest.php" method="post">
+            <div>
+                <input type="hidden" value="Andres Tangarife" name="hidden_value"><br><br>                
+            </div>
+
+            <div class="p1 forms">
+                Name: <br>
+                <input type="text" maxlength="40" name="Name" size="50px" placeholder="your Name"><br><br>
+            </div>
+            
+            <div class="p1 forms">
+                email: <br>
+                <input type="email" maxlength="40" name="email" size="50px" placeholder="Please input youe email"><br><br>
+            </div>
+            
+            <div class="p1 forms">
+                How much did you like the page?: 
+                <select name="science_fiction">
+    
+                    <option value="Excellent!">Really much</option>
+                    
+                    <option value="Nice">liked</option>
+                    
+                    <option value="At least">Kinda liked</option>
+                    
+                    <option value="Sad">Not liked</option>
+                    
+                </select><br><br>
+            </div>
+            
+            <div class="p1 forms">
+                <fieldset>
+                    
+                    <legend>What would you like to know more about me?:</legend>
+                    
+                    <input type="radio" name="Accomplishments" value="Aircraft">
+                    <label for="Accomplishments">Accomplishments</label><br/>
+                    
+                    <input type="radio" name="Trains" value="Railway">
+                    <label for="Trains">Employment</label><br/>
+                    
+                    <input type="radio" name="Employment" value="Car">
+                    <label for="Employment">Personal Information</label><br/>
+                    
+                </fieldset>
+            </div>
+            
+        </form>
+        
+        <div class="footer1 text-center">
+            &copy; &Lambda;&alpha;&eta;s&epsilon;&zeta;&sigma;&omega;<br/>
+            <script>document.write('Last Modified:' + document.lastModified);</script>            
+        </div>
+        
+    </div>
+</body>
+</html>

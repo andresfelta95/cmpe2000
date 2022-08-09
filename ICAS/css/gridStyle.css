@@ -1,0 +1,95 @@
+
+/*This CSS file is used for ICA04
+Course: CMPE 2000- Wnter 2022
+Author: Andres Tangarife*/
+#mainLayout{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 5fr 3fr 5fr 5fr 4fr 1fr 1fr;
+    grid-gap: 10px 15px;
+    background-color: transparent;
+}
+
+.container{    
+    border: 3px solid black;
+    border-radius: 30px;
+    background-color: #e9e9e9;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+header, section, nav, footer, aside{
+    background: transparent;
+}
+
+
+/*span says how many colums or rows the element will span
+  end is used to last the element to the last row or column*/
+ 
+
+#header {
+    background-color: tomato;
+    border-radius: 25px;
+    border: 2px solid black;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    grid-row-start: 1;
+    grid-row-end: span 2;    
+}
+
+#schedule {
+    display: flex;
+    align-items: center;
+    font-family: 'Xanh Mono', monospace;
+    grid-row-start: 1;
+    grid-row-end: 2;     
+}
+
+#alert {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    
+}
+
+#bands {
+    font-size: larger;
+    border: 2px groove red;
+    border-radius: 20px;
+    padding: 20px;    
+}
+
+#album_covers {
+    background-color: #969393ad;
+    
+}
+
+#entities {
+    background-color: #abbada;
+    
+    
+}
+
+#feed {
+    background-color: #696666ad;
+    
+    
+}
+
+#footer {
+    text-align: center;
+    
+}
+/*    
+@media screen and ( min-width : 800px ) {
+    body { background-color: #bbb; }
+    .container{
+        display:grid;    
+        grid-template-columns:repeat(5, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+    
+    }    
+   }*/
+
+footer{border: yellow dotted 13px;}

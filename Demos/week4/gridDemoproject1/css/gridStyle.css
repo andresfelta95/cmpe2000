@@ -1,0 +1,53 @@
+
+
+/*This CSS file is used for illustrating Styling with Grid
+Course: CMPE 2000- Wnter 2022
+Author: Oveeyen Moonian
+
+
+
+
+*/
+/* our container class is a grid with 3 colums (100px, 300px, 200px) and 2 rows (100px, 200px)*/
+.container{
+    display:grid;
+    grid-template-columns:2fr 3fr 200px;
+    grid-template-rows: 100px 200px;
+    
+    gap: 10px 15px;/*first the row gap and then the colum gap */
+}
+
+
+ 
+.item {
+    font-size: 3em;
+    text-align:center;
+    padding-top: 0.5em;;
+   }
+
+.item1 {
+    background-color: #e9e9e9e3 ;
+}
+
+.item2 {
+    background-color: #c2c0c0c2 ;
+}
+.item3 {
+    background-color: #969393ad ;
+}
+.item4 {
+    background-color: #7e7b7b75 ;
+    padding-top:1em;
+}
+
+.item5 {
+    background-color: #969393ad;
+    padding-top:1em;
+}
+
+.item6 {
+    background-color: #696666ad;
+    padding-top:1em;
+}
+    
+

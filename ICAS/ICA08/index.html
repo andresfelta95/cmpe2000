@@ -1,0 +1,53 @@
+<!Doctype html>
+<html>
+
+<head>
+    <title>ICA08</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/ICA08.css">
+    <script src="js/ICA08.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <div id="header1" class="jumbotron text-center">
+        <h1 class="font-effect-3d">Andres Tangarife ICA08</h1>           
+    </div>
+    <br>
+    <figure id="mainImg">
+        <img id="picture" src=""><br>
+        <figcaption id="figureCaption"></figcaption>
+    </figure>
+    
+    <figure id="bntGroup">
+        <img class="buttons" id="Previous" src="images/previous.png">
+        <img class="buttons" id="playPause" src="images/play.png">              
+        <img class="buttons" id="Next" src="images/next.png">        
+    </figure>
+    <div id="transGroup">
+        <label for="Transition">Transition:</label>
+        <select name="Transition" id="Transitions">
+            <option value="Fadein/Fadeout">Fadein/Fadeout</option>
+            <option value="Fadein">Fadein</option>
+            <option value="Fadeout">Fadeout</option>
+            <option value="None">None</option>
+        </select>
+        <fieldset>
+            <label for="300ms">300ms</label>
+            <input type="radio" id="ms" name="speed" value="300" checked>
+            <label for="900ms">900ms</label>
+            <input type="radio" id="ms" name="speed" value="900">
+            <label for="2000ms">2000ms</label>
+            <input type="radio" id="ms" name="speed" value="2000">
+        </fieldset>
+    </div>
+    
+    <div class="footer text-center">
+        &copy; &Lambda;&alpha;&eta;s&epsilon;&zeta;&sigma;&omega;<br/>
+        <script>document.write('Last Modified:' + document.lastModified);</script>                  
+    </div>
+</body>
+
+</html>

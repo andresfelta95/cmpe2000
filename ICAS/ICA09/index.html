@@ -1,0 +1,71 @@
+<!Doctype html>
+<html>
+
+<head>
+    <title>ICA09</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/ICA09.css">
+    <script src="js/ICA09.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <div id="header1" class="jumbotron text-center">
+        <h1 class="font-effect-3d">Andres Tangarife ICA09</h1>           
+    </div>
+    <br>
+    <label for="Name" class="name"> Name:
+    </label> 
+    <input type='text' name="Name" placeholder="Your Name">
+    <br><br>
+    <label for="Hobby" class="hobby"> Hobby:
+    </label>
+    <input type='text' name="Hobby" placeholder="Your Hobby">
+    <br><br>
+    <label for="Howmuch" class="howmuch"> How much I like it:
+    </label>
+    <input type='range' name="Howmuch" min="1" max="13" id="likeIt" value="8">
+    <br><br>
+
+    <button type="button" id="callGet">Call with Get</button>
+    <br><br>
+    <div id="GetResult"></div> 
+    <br> <br>
+
+    
+    <label class="row"> Row Count:
+        <input type='range'  min="1" max="13" id="RowCount" value="5">
+    </label>
+    <label class="column"> Column Count:
+        <input type='range'  min="1" max="13" id="ColumnCount" value="5">
+    </label><br><br>    
+    <button type="button" id="TableBtn">Post to Make 5x5 Table</button>    
+    <br><br>
+    <div class="RTable"></div>
+    <br> <br>
+
+
+    <button type="button" id="Generate">Generate numbers and show</button>    
+    <br><br>
+    <div class="Rgenerate"></div>
+    <br> <br>
+    <button type="button" id="modified">Post and show modified</button>    
+    <br><br>
+    <div class="Rmodified"></div>
+    <br> <br>
+    
+    <button type="button" id="Fail">Fail!</button>    
+    <br><br>
+    <div class="FailResult"></div>
+    <br> <br>
+
+    <div class="footer text-center">
+        &copy; &Lambda;&alpha;&eta;s&epsilon;&zeta;&sigma;&omega;<br/>
+        <script>document.write('Last Modified:' + document.lastModified);</script>                  
+    </div>
+    
+</body>
+
+</html>

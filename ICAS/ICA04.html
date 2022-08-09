@@ -1,0 +1,105 @@
+<!Doctype html>
+<!--HTML file to illustrate the us of grid positions Demo
+    we'll make use of grid start and end positions-->
+<html>
+<head>
+    <title>Andres Tangarife ICA04</title>    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Comforter&family=Neonderthaw&family=Xanh+Mono:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/ICA04_Style.css">
+        
+</head>
+<body class="holeclass">
+    <div class="container">
+        <div id="header" class="jumbotron text-center">
+            <h1 class="font-effect-3d">ica04 - CSS Grid Forms</h1><br>
+            
+        </div>
+        <img id="img1" src="images/space.jpg" alt="space">
+        <img id="img2" src="images/space.jpg" alt="space">
+        
+        <form id="form1" action="https://thor.net.nait.ca/~demo/cmpe2000/ica04_formtest.php" method="post">
+            <div>
+                <input type="hidden" value="Andres Tangarife" name="hidden_value"><br><br>                
+            </div>
+
+            <div class="input" id="username">
+                Username: <br>
+                <input type="text" maxlength="16" name="username" size="20px" placeholder="your username"><br><br>
+            </div>
+            
+            <div class="input" id="password-input">
+                Pin: <br>
+                <input type="password" maxlength="6" name="pin" size="10px" placeholder="your pin"><br><br>
+            </div>
+            
+            <div class="input" id="byte">
+                Byte Value: <br>
+                <input type="range" min="0" max="8" name="byte_value" style="width: 250px;"><br><br>
+            </div>
+            
+            <div class="input" id="date-input">
+                Best Date:<input type="date" value="1967-09-09" name="best_date"><br><br>
+            </div>
+            
+            <div class="input" id="color">
+                Best Color:<input type="color" value="#ABCDEF" name="best_color"><br><br>
+            </div>
+            
+            <div class="input" id="radiobuttons">
+                <fieldset>
+                    
+                    <legend>Preferred Travel:</legend>
+                    
+                    <input type="radio" id="Planes" name="Planes" value="Aircraft">
+                    <label for="Planes">Planes</label><br/>
+                    
+                    <input type="radio" id="Trains" name="Trains" value="Railway">
+                    <label for="Trains">Trains</label><br/>
+                    
+                    <input type="radio" id="Automobiles" name="Automobiles" value="Car">
+                    <label for="Automobiles">Automobiles</label><br/>
+                    
+                </fieldset><br><br>
+            </div>
+            
+            <div class="input" id="dropbox">
+                Choice of Sci-Fi: 
+                <select name="science_fiction" id="Sci">
+    
+                    <option value="Metropolis">Really Old</option>
+                    
+                    <option value="Star Trek">Old</option>
+                    
+                    <option value="Star Wars">Kinda Old</option>
+                    
+                    <option value="Dune">Recent</option>
+                    
+                </select><br><br>
+            </div>
+            
+            <div class="input" id="check">
+                Acknowledge Use: <input type="checkbox" name="acknowledge"><br><br>
+            </div>
+            
+            <div class="resetb-submitb input">
+                <input type="reset" value="Reset Form" style="width: 100%;"><br>
+                <input type="submit" value="Test Submission" style="width: 100%;">
+            </div>
+            
+            
+            
+            
+        </form>
+        
+        <div class="footer text-center">
+            &copy; &Lambda;&alpha;&eta;s&epsilon;&zeta;&sigma;&omega;<br/>
+            <script>document.write('Last Modified:' + document.lastModified);</script>
+            <br>
+            <button><a href="index.html">ICAS</a></button>
+        </div>
+        
+    </div>
+</body>
+</html>

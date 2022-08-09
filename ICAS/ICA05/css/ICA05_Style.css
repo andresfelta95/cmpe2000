@@ -1,0 +1,105 @@
+.outherGrid{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    font-size: large;
+}
+form p{
+    text-align: right;
+}
+#header1{
+    grid-column-start: 1;
+    grid-column-end: span 4;
+}
+.text-center {
+    text-align: center;
+}
+.innerGrid{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    display: grid;
+    grid-template-columns: repeat(2 1fr);
+    grid-gap: 10px;
+    align-items: center;
+    background-color: rgba(127, 255, 212, 0.397);    
+}
+.ps{
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+.right{
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+#icon{
+    width: 40px;
+    height: 40px;
+}
+
+.font-effect-3d {
+    text-shadow: 0px 1px 0px #c7c8ca, 0px 2px 0px #b1b3b6, 0px 3px 0px #9d9fa2, 0px 4px 0px #8a8c8e, 0px 5px 0px #77787b, 0px 6px 0px #636466, 0px 7px 0px #4d4d4f, 0px 8px 7px #001135;
+    color: #fff;    
+}
+
+.jumbotron {
+    font-family: Comfortaa, sans-serif;
+    background-color: #0000f096;
+    color: #cccccc;            
+}
+#mybutton1{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    width: 100%;
+}
+.background{
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+#mybutton2{
+    width: auto;
+}
+.dimmentions{
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+.timeNow{
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+.secret{
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+.prompt{
+    grid-row-start: 6;
+    grid-row-end: 7;
+}
+.tux{
+    grid-row-start: 7;
+    grid-row-end: 8;
+}
+.dynamic{
+    grid-row-start: 8;
+    grid-row-end: 9;
+}
+.tableb{
+    grid-row-start: 9;
+    grid-row-end: 10;
+}
+#mybutton4, #mybutton5, #mybutton6, #mybutton7{
+    width: 100%;
+}
+
+.footer{
+    grid-column-start: 1;
+    grid-column-end: span 4;
+    grid-row-start: 4;
+    grid-row-end: 5; 
+}
+
+/*@media screen and ( min-width : 800px ) {
+    body { background-color: rgb(13, 185, 238); }
+    
+
+}*/

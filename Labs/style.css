@@ -1,0 +1,87 @@
+#main{
+    display: grid;
+    grid-template-columns:repeat(2, 1fr);
+    grid-template-rows:25vh 5vh 5vh 5vh 10vh;
+    text-align: center;
+    height: auto;
+}
+header{
+    background-color: aquamarine;
+    font-size: x-large;
+    grid-column-end: span 2;        
+}
+.body{
+    border: 3px dotted blue;
+    background-color: cadetblue;
+}
+footer{
+    background-color: bisque;
+    font-size: large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    grid-column-end: span 2;
+}
+@media screen and ( min-width : 1130px ) {
+    #main{
+        display: grid;
+        grid-template-columns:repeat(3, 1fr);
+        grid-template-rows:repeat(4, 25vh);
+        text-align: center;
+        grid-gap: 13px;
+        height: auto;
+    }
+    header{
+        background-color: chocolate;
+        font-size: x-large;
+        grid-column-end: span 3;        
+    }
+    .body{
+        border: 3px dotted blue;
+        background-color: cadetblue;
+    }
+    #AF{
+        background-color: chartreuse;
+        border: 2px solid pink;
+    }
+    footer{
+        background-color: chocolate;
+        font-size: large;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        grid-column-end: span 3;
+    }
+    .A{
+        grid-row-start: 3;
+        grid-row-end: 3;
+        grid-column-start: 3;
+        grid-column-end: 3;
+    }
+    .B{
+        grid-row-start: 3;
+        grid-row-end: 3;
+        grid-column-start: 2;
+        grid-column-end: 2;
+    }
+    .C{
+        grid-row-start: 3;
+        grid-row-end: 3;
+        grid-column-start: 1;
+        grid-column-end: 1;
+    }
+    .D{
+        grid-row-start: 2;
+        grid-row-end: 2;
+        grid-column-start: 3;
+        grid-column-end: 3;
+    }
+    .E{
+        grid-row-start: 2;
+        grid-row-end: 2;
+        grid-column-start: 2;
+        grid-column-end: 2;
+    }
+    .F{
+        grid-row-start: 2;
+        grid-row-end: 2;
+        grid-column-start: 1;
+        grid-column-end: 1;
+    }
+   }

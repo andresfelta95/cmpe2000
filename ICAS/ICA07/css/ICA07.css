@@ -1,0 +1,91 @@
+body{
+    background-color: #001135;
+    display: grid;
+    
+}
+#header1{
+    height: 100px;
+}
+.text-center {
+    text-align: center;
+}
+.buttons{
+    height: 100px;
+    width: 100px;
+}
+.font-effect-3d {
+    text-shadow: 0px 1px 0px #c7c8ca, 0px 2px 0px #b1b3b6, 0px 3px 0px #9d9fa2, 0px 4px 0px #8a8c8e, 0px 5px 0px #77787b, 0px 6px 0px #636466, 0px 7px 0px #4d4d4f, 0px 8px 7px #001135;
+    color: #fff;    
+}
+
+.jumbotron {
+    font-family: Comfortaa, sans-serif;
+    background-color: #ffffffde;
+    color: #f0ecec;            
+}
+
+#mainImg{
+    justify-content: center;
+    text-align: center;
+    color: #c7c8ca;
+    font-size: large;
+}
+#picture{
+    width: 700px;
+    height: 500px;
+}
+
+#bntGroup{
+    justify-content: center;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: span 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+
+.footer{
+    
+    background-color: #fff;
+    color: black; 
+}
+
+@media screen and ( min-width : 800px ) {
+    
+    #header1{
+        grid-column-start: 1;
+        grid-column-end: span 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    .text-center {
+        text-align: center;
+    }
+    
+    
+    .font-effect-3d {
+        text-shadow: 0px 1px 0px #c7c8ca, 0px 2px 0px #b1b3b6, 0px 3px 0px #9d9fa2, 0px 4px 0px #8a8c8e, 0px 5px 0px #77787b, 0px 6px 0px #636466, 0px 7px 0px #4d4d4f, 0px 8px 7px #001135;
+        color: #fff;    
+    }
+    
+    .jumbotron {
+        font-family: Comfortaa, sans-serif;
+        background-color: #ffffffde;
+        color: #f0ecec;            
+    }
+
+    
+    
+    
+    .footer{
+        grid-column-start: 1;
+        grid-column-end: span 3;
+        grid-row-start: 4;
+        grid-row-end: 5;
+        background-color: #fff;
+        color: black; 
+    }
+    
+
+}

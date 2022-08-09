@@ -1,0 +1,232 @@
+.outherGrid{
+    display: grid;
+    
+    font-size: large;
+    grid-gap: 10px;
+    background-color: black;
+    color: white;
+}
+#header1{
+    grid-column-start: 1;
+    grid-column-end: span 4;
+}
+.text-center {
+    text-align: center;
+}
+.innerGrid{
+    grid-column-start: 1;
+    grid-column-end: span 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    display: grid;    
+    grid-gap: 10px;
+    align-items: center;
+    background-color: rgba(102, 104, 103, 0.397);       
+}
+#L1{
+    grid-row-start: 1;
+    grid-row-end: 1;
+    text-align: center;
+}
+#Make{
+    background-color: rgb(66, 83, 34);
+    color: white; 
+}
+#Make, #bike{
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+
+#L2{
+    grid-row-start: 3;
+    grid-row-end: 3;
+    text-align: center;
+}
+#Model{
+    grid-row-start: 4;
+    grid-row-end: 4;
+    background-color: black;
+}
+#L3{
+    grid-row-start: 5;
+    grid-row-end: 5;
+    text-align: center;
+}
+#Options{
+    grid-row-start: 6;
+    grid-row-end: 6;
+    background-color: black;
+}
+#L4{
+    grid-row-start: 7;
+    grid-row-end: 7;
+    text-align: center;
+}
+#dpayment{
+    grid-row-start: 8;
+    grid-row-end: 8;
+    background-color: black;
+    color: white;
+}
+#message{
+    grid-row-start: 10;
+    grid-row-end: 10;
+}
+#submitB{
+    grid-row-start: 11;
+    grid-row-end: 11;
+    background-color: black;
+    color: white;
+}
+
+
+.font-effect-3d {
+    text-shadow: 0px 1px 0px #c7c8ca, 0px 2px 0px #b1b3b6, 0px 3px 0px #9d9fa2, 0px 4px 0px #8a8c8e, 0px 5px 0px #77787b, 0px 6px 0px #636466, 0px 7px 0px #4d4d4f, 0px 8px 7px #001135;
+    color: #fff;    
+}
+
+.jumbotron {
+    font-family: Comfortaa, sans-serif;
+    background-color: #ffffffde;
+    color: #f0ecec;            
+}
+
+
+.footer{
+    grid-column-start: 1;
+    grid-column-end: span 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    background-color: #fff;
+    color: black; 
+}
+
+@media screen and ( min-width : 800px ) {
+    .outherGrid{
+        display: grid;
+        grid-template-columns: 1fr 4fr 1fr;
+        font-size: large;
+        grid-gap: 10px;
+        background-color: black;
+        color: white;
+    }
+    #header1{
+        grid-column-start: 1;
+        grid-column-end: span 4;
+    }
+    .text-center {
+        text-align: center;
+    }
+    .innerGrid{
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        grid-gap: 10px;
+        align-items: center;
+        background-color: rgba(102, 104, 103, 0.397);       
+    }
+    #L1{
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 1;
+        grid-row-end: 1;
+        text-align: right;
+    }
+    #Make{
+        background-color: rgb(66, 83, 34);
+        color: white; 
+    }
+    #Make, #bike{
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 1;
+    }
+    
+    
+    #L2{
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 2;
+        grid-row-end: 2;
+        text-align: right;
+    }
+    #Model{
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 2;
+        background-color: black;
+    }
+    #L3{
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 3;
+        grid-row-end: 3;
+        text-align: right;
+    }
+    #Options{
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        grid-row-end: 3;
+        background-color: black;
+    }
+    #L4{
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 4;
+        grid-row-end: 4;
+        text-align: right;
+    }
+    #dpayment{
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 4;
+        grid-row-end: 4;
+        background-color: black;
+        color: white;
+    }
+    #message{
+        grid-column-start: 1;
+        grid-column-end: span 2;
+        grid-row-start: 5;
+        grid-row-end: 5;
+    }
+    #submitB{
+        grid-column-start: 1;
+        grid-column-end: span 2;
+        grid-row-start: 6;
+        grid-row-end: 6;
+        background-color: black;
+        color: white;
+    }
+    
+    
+    .font-effect-3d {
+        text-shadow: 0px 1px 0px #c7c8ca, 0px 2px 0px #b1b3b6, 0px 3px 0px #9d9fa2, 0px 4px 0px #8a8c8e, 0px 5px 0px #77787b, 0px 6px 0px #636466, 0px 7px 0px #4d4d4f, 0px 8px 7px #001135;
+        color: #fff;    
+    }
+    
+    .jumbotron {
+        font-family: Comfortaa, sans-serif;
+        background-color: #ffffffde;
+        color: #f0ecec;            
+    }
+    
+    
+    .footer{
+        grid-column-start: 1;
+        grid-column-end: span 4;
+        grid-row-start: 4;
+        grid-row-end: 5;
+        background-color: #fff;
+        color: black; 
+    }
+    
+
+}

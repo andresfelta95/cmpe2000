@@ -1,0 +1,16 @@
+
+body{background-color: rgb(163, 190, 41);    
+    font-family: 'Roboto Mono', monospace;}
+a{color: burlywood;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;}
+h1,h5{text-align: center;}
+.Centered{margin-left: auto;
+    margin-right: auto;
+    display: block;}
+#ALast{word-spacing: 10px;}
+a:link {background-color: green;}
+a:visited{background-color: green;}
+a:hover{background-color: yellow;}
+a:active{background-color: red;}
+

@@ -1,0 +1,112 @@
+body{
+    background-color: #749325;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+.Body{
+    background-color: #6486ba74;    
+}
+
+#header1{
+    height: 100px;
+    grid-column-start: 1;
+    grid-column-end: span 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.text-center {
+    text-align: center;
+}
+button{
+    height: 50px;    
+    font-size: 25px;
+    grid-column-start: 1;
+    grid-column-end: span 3;
+}
+.font-effect-3d {
+    text-shadow: 0px 1px 0px #c7c8ca, 0px 2px 0px #b1b3b6, 0px 3px 0px #9d9fa2, 0px 4px 0px #8a8c8e, 0px 5px 0px #77787b, 0px 6px 0px #636466, 0px 7px 0px #4d4d4f, 0px 8px 7px #001135;
+    color: #fff;    
+}
+
+.jumbotron {
+    font-size: 25px;           
+    font-family: Comfortaa, sans-serif;
+    /* background-color: #ffffffde; */
+    color: #f0ecec; 
+}
+
+
+
+
+
+.footer{    
+    /* background-color: #fff; */
+    color: black;
+    grid-column-start: 1;
+    grid-column-end: span 3;  
+}
+
+@media screen and ( min-width : 800px ) {
+
+    .Body{
+        grid-column-start: 2; 
+        grid-column-end: span 1;       
+        display: grid;
+        align-items: center;
+        text-align: center;
+        padding: 10px;        
+    }
+   
+    .text-center {
+        text-align: center;
+    }
+    
+    
+    .font-effect-3d {
+        text-shadow: 0px 1px 0px #c7c8ca, 0px 2px 0px #b1b3b6, 0px 3px 0px #9d9fa2, 0px 4px 0px #8a8c8e, 0px 5px 0px #77787b, 0px 6px 0px #636466, 0px 7px 0px #4d4d4f, 0px 8px 7px #001135;
+        color: #fff;    
+    }
+    
+    .jumbotron {
+        font-family: Comfortaa, sans-serif;
+        /* background-color: #6a21dfa6; */
+        color: #f0ecec;            
+    }
+    .Manufacturer{
+        /* grid-column-start: 1;
+        grid-column-end: span 1; */
+        grid-row-start: 2;
+        grid-row-end: span 1; 
+    }    
+    .Year{
+        /* grid-column-start: 2;
+        grid-column-end: span 1; */
+        grid-row-start: 2;
+        grid-row-end: span 1; 
+    }
+    .Type{
+        /* grid-column-start: 3;
+        grid-column-end: span 1;  */
+        grid-row-start: 2;
+        grid-row-end: span 1;
+    }
+    
+    .Manufacturer, .Year, .Type{
+        
+        font-size: 25px;
+    }
+
+    .Result{
+        grid-column-start: 1;
+        grid-column-end: span 3;
+    }
+
+    #GetResult{
+        display: grid;
+        align-items: center;
+        grid-template-columns: repeat(6,1fr);
+        padding: 10px;
+    }
+
+}

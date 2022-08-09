@@ -1,0 +1,17 @@
+/*
+CMPE 2000- Winter 20222
+Style Sheet used week9 - demo 1 
+
+Author: Oveeyen Moonian
+Date: 07 March 2022
+*/
+
+#paragraph1{
+    font-size: 1.5em;
+    color:blue;
+    font-weight: bold;
+}
+
+button{
+    background-color: cyan;
+}
